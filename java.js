@@ -24,7 +24,7 @@ while(star>5 || star <=0)
 for ( i=0;star>i ; i++)
 {
 
-document.write('<img src="https://www.google.com/search?q=star&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjelbfGvPvwAhXZhf0HHVB7CswQ_AUoAXoECAEQAw&biw=1242&bih=597#imgrc=-M7HxKQl-jBgHM">')
+document.write('<img src="https://image.pngaaa.com/369/1372369-middle.png" width="100" height="100">')
 
 }
 alert('you can continue')
