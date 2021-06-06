@@ -1,18 +1,31 @@
 // hello every one who can see this code it is just my first attempt 
-alert ('are you sure to continue?' )
+
+function welcoming()
+{
+
+alert ('Welcome to HTML page' )
+var name =prompt('write you sur name please')
 var yourage = prompt('write your age to cheak if you are allowed to enter')
 
 
+}
+
+welcoming()
 
 
+function Verification() {
 while(yourage<18)
 {
   alert('you are so young we can`t allow for you to access this page ')
   var yourage = prompt('write your age to cheak if you are allowed to enter')
 
   
-}
-var name =prompt('write you sur name please')
+}}
+Verification()
+
+
+function evaluation (){
+
 var star=prompt("What star rating would you give from 1-5")
 while(star>5 || star <=0)
 { 
@@ -29,3 +42,5 @@ document.write('<img src="https://image.pngaaa.com/369/1372369-middle.png" width
 }
 alert('you can continue')
 document.write ('<h4>' + name + '</h4>' )
+}
+evaluation()
